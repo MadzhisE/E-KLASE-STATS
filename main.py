@@ -29,13 +29,13 @@ with sync_playwright() as p:
     writer = pd.ExcelWriter("Atzimes.xlsx", engine='xlsxwriter')
     worksheet = writer.book.add_worksheet('Sheet1')
 
-    for idx, col in enumerate(df):  # loop through all columns
+    for idx, col in enumerate(df):
         series = df[col]
         max_len = max((
-        series.astype(str).map(len).max(),  # len of largest item
-            len(str(series.name))  # len of column name/header
-            )) + 1  # adding a little extra space
-        worksheet.set_column(idx, idx, max_len)  # set column width
+        series.astype(str).map(len).max(),
+            len(str(series.name))
+            )) + 1
+        worksheet.set_column(idx, idx, max_len)
 
     df.to_excel(writer, index=False)
 
