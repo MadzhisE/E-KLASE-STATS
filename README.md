@@ -2,6 +2,7 @@
 Negribās maksāt par statistiku par atzīmēm? Izmanto šo python scriptu, lai dabūtu excel file ar savām atzīmēm. (WIP)
 
 dependencies -
+
 https://pypi.org/project/playwright/
 `pip install playwright`
 
