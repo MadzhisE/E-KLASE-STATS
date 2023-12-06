@@ -14,3 +14,5 @@ https://pypi.org/project/XlsxWriter/
 https://pypi.org/project/pandas/
 
 `pip install pandas`
+
+Lai runotu šo scriptu, nokopē main.py un runo viņu
