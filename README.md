@@ -1,5 +1,6 @@
 # E-KLASE-STATS
 Negribās maksāt par statistiku par atzīmēm? Izmanto šo python scriptu, lai dabūtu excel file ar savām atzīmēm. (WIP)
+Ieteicams lietot tiem, kuri saprot ko jalade ja kaut kas neiet
 
 dependencies -
 
